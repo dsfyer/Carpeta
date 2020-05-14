@@ -1,0 +1,6 @@
+function multiplicar(x,y){
+         if (x==0||y==0){
+            return "Error siempre da 0"}
+            return x*y}
+            module.exports = multiplicar
+            

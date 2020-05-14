@@ -1,0 +1,41 @@
+// Ruta /heroes ➝ se envía todo el array y Express lo parsea para el browser como JSON :D
+app.get('/heroes', function(req,res) {
+	res.send(heroes);
+});
+
+// Ruta /heroes/n ➝ se envía el nombre y profesión del héroe solicitado
+// Acá lo primero será encontrar al héroe que corresponda,el punto find nos va a filtar el valor correspondiente y lo va a guardar en la variable heroepedido
+app.get('/heroes/:id', function (req,res){
+const found = heroes.find(heroe=>heroe.id=== req.params.id);
+	// Si se encuentra al héroe se envía el nombre y su profesión
+if (found == undefined){
+		res.send('Error 404, no encontramos tu heroe, verificar el id')
+		
+	 
+	 // Si NO se encuentra se envía el mensaje de no encontrado
+	}
+else {
+		let found = (heroes[req.params.id].nombre)(heroes[req.params.id].profesion)
+		res.send(found);
+	}
+}
+)
+;
+	
+	
+
+
+	//	 }
+	
+
+// Ruta /heroes/n/bio ➝ se envía la bio del héroe solicitado
+//app.get('¿?', (¿?) => {
+	// Acá lo primero será encontrar al héroe que corresponda
+	//let heroe = __¿?__;
+
+	// Si NO se encuentra al héroe se envía un mensaje
+	// Si se encuentra al héroe:
+		// Se pregunta si vino el parámetro Y el valor esperado y se envía la información
+		// Si nó vino el parámetro se envía el mensaje de error
+	//}
+//});

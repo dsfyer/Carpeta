@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;}
+
+
+.container {
+   
+    width: 98%;
+    margin: auto;
+}
+
+.main-header{
+
+padding-top: 2.5%;
+
+
+}
+
+    .logo{
+        width: 50%;
+        margin: auto;
+        display: block;
+        border-radius: 150px;
+
+    }  
+
+   
+
+    .main-nav ul{
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .main-nav ul li{
+        border: black solid 1px;
+        margin: 0.5%;
+        text-align: center;
+        
+    }
+
+    .main-nav ul li a{
+        display: block;
+        line-height: 50px;
+        height: 100%;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .banner{
+        display: none;
+    }
+    
+   
+
+        .product{
+            border: solid black 1px;
+            margin-bottom: 3%;
+        }
+
+            .photo-container{
+                position: relative;
+            }
+                .photo{
+                    width: 100%;
+                }
+                .special{
+                    position: absolute;
+                    right: 5%;
+                    
+                }  
+                .zoom{
+                    background-color:rgba(255,255,255,30%);
+                    padding: 2%;
+                    text-align: center;
+                    display: block;
+                    position: absolute;
+                    bottom: 45%;
+                    width: 100%;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 100%;
+                    text-transform: uppercase;
+                }
+
+                .more{
+                    padding: 2%;
+                    background-color: darkslategrey;
+                    color:whitesmoke;
+                    text-align: center;
+                    display: block;
+                    
+                }
+    .main-footer ul{
+        list-style-type: none;
+        padding-left: 0%;
+    }
+    .main-footer ul li{
+        border: black solid 1px;
+        margin: 0.5%;
+        text-align: center;
+        padding: 1.5% 0;
+    }
+    .main-footer ul li a{
+        text-decoration: none;
+        font-size: 105%;
+    }
+
+    @media (min-width:768px){
+        body{
+            background-color: teal;
+        }   
+
+        .logo{
+            border-radius: 200px;
+        }
+
+        .main-nav ul{
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-nav ul li{
+            width: 16%;
+            float: left;
+        }
+        
+        .banner{
+            display: block;
+        }
+        
+        .banner img{
+            width: 100%;
+        
+
+        }
+
+        .vip-products{
+            overflow: hidden;
+            margin-right: -3%;
+        }
+        .product{
+            overflow: hidden;
+            width: 48%;
+            float: left;
+            margin-right: 1.18%;
+        }
+    }
+
+    @media (min-width:992px){
+        body{background-color:white
+        }
+        
+        .banner{
+            width: 100%;
+        }
+
+        .main-header{
+            padding-top: 15px;
+            margin-bottom: 20px;
+        }
+         
+        .logo{
+            width: 180px;
+            margin-bottom: 30px;
+            
+        }
+        
+        .main-nav ul{
+            margin-bottom: 0%;
+            margin-top: 0%;
+            padding-top: 0%;
+        }
+
+        .main-nav ul li{
+            margin: 0%;
+            height: 50px;
+            width: 17%;
+        }
+        
+        .vip-products{
+            margin-right: -3.1%;
+        }
+
+        .product{
+            width: 31%;
+            margin-top: 1%;
+            margin-right: 2%;
+        }    
+
+        .main-footer{
+
+            border-radius: 40px 40px 0px 0px;
+            -moz-border-radius: 40px 40px 0px 0px;
+            -webkit-border-radius: 40px 40px 0px 0px;
+            border: 0px solid #000000;
+            background-color: red;
+            height: 100px;
+            padding-top: 2%;
+            margin-top: 1.5%;
+           
+        }
+
+        .main-footer ul{
+            overflow: hidden;
+            padding-left: 0%;
+            display: flex;
+            justify-content: center;
+            margin: 0px 0px 0px 0px;
+            
+        }
+
+        .main-footer ul li{
+            width: 7%;
+            text-align: center;
+            border: none;
+            display: list-item;
+            margin-top: 0%;
+            margin: 0px;
+        }
+    }

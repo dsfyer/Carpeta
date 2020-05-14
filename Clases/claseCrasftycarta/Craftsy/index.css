@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightblue;
+}
+
+    .container{
+        margin: auto;
+        overflow: hidden;
+        width: 75%;
+        border: black solid 2px;
+        
+        }
+
+            .header-naranja{
+                background-color: orangered;
+                overflow: hidden;
+            }
+
+            .header-nav{
+                
+                width: 50%;
+                float: left;
+                overflow: hidden;
+
+            }
+
+                .img-header-nav{
+                float: left;
+                padding-left: 3%;
+                padding-top: 4%;
+
+                }
+
+                .header-link{
+                float: left;
+                padding: 5%;
+                width: 75%;
+                text-align: center;
+                }
+
+                .link{
+                margin: 2%;
+
+            }
+
+            .header-logreg{
+                
+                width: 17%;
+                float: right;
+                padding: 3%;
+
+            }
+
+                .login-register{
+                    margin: 2%;
+                    text-align: center;
+                    
+                }
+
+        .main{
+            margin-top: 3%;
+            overflow: hidden;
+        }
+
+            .section-productos{
+            background-color:white;
+            width: 70%;
+            float: left;
+            margin-right: 1.5%;
+            overflow: hidden;
+            
+            }
+
+                .productos-cuadro{
+                    width: 46%;
+                    float: left;
+                    margin: 2%;
+                    }
+                    
+                    .imagen-productos-cuadro{
+                    width: 100%;
+                    }
+                    
+                    .titulo-producto{
+                        padding: 0%;
+                    }
+
+                    .letra-producto-cuadro{
+                    font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    .button-producto-vermas{
+                        background-color: orangered;
+                    }
+            .tutoriales{
+                
+                width: 27%;
+                
+                float: right;
+                margin-left: 1.5%;
+            }
+                .cartel-lateral{
+                    background-color: white;
+                    padding: 2%;
+                    font-size: 22px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin-bottom: 4%;
+                    border: solid 1px grey;
+                }
+
+                .cajatutoriales{
+                    overflow: hidden;
+                    background-color: white;
+                    border: solid 1px grey;
+                }
+                    .imagentutorial{
+                        width: 33%;
+                        float: left;
+                        padding: 3%;
+                    }
+
+                    .textocajatutorial{
+                        float: left;
+                        width: 66%;
+                        padding-left: 5%;
+                    }
+                .cartel-publicidad{
+                    background-color: white;
+                    padding: 2%;
+                    font-size: 22px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin-bottom: 4%;
+                    margin-top: 10%;
+                    border: solid 1px grey;
+                }
+            
+            .caja-publicidad{
+                background-color:white;
+            }    
+                
+            .publicidad{
+                width: 100%;
+                padding: 3%
+            }
+            .imagen-publicidad{
+                width: 100%;
+            }
